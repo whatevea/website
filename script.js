@@ -15,12 +15,12 @@ search_btn.onclick=()=>{
   let query=document.getElementById("query_here").value;
 let type= getMediaType();
    var url;
- if(type="engish"){
-   url=`https://fmovies.to/search?keyword=${query}`;
+ if(type==="english"){
+   url=`https://fmovies.to/search?keyword=${query}&vrf=W7KDew%3D%3D`;
    }
-  if(type="anime")
+  if(type==="anime")
 {
-   url=`https://9anime.to/filter?keyword=${query}`;
+   url=`https://9anime.to/filter?keyword=${query}&vrf=bGByWjY1eTc%3D`;
 }
   else{
      url=`https://hindilinks4u.kim/?s=${query}`;
