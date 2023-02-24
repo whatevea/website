@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,300&display=swap');
+
+body {
+  font-family: 'Texturina', serif !important;
+   background-color: #002242 !important;
+}
+
+
+.navbar-brand>img{
+  width:180px;
+  border-radius:10px;
+  border:3px solid black;
+  padding:6px;
+  background-color:white;
+}
+.main{
+  margin-top:30px;
+  padding:30px;
+  color:black;
+ width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+allcards{
+  margin-top:40px;
+}
+.card{
+  display:inline-block !important;
+}
