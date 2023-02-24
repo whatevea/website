@@ -12,7 +12,7 @@ function getMediaType(){
   
 }
 search_btn.onclick=()=>{
-  let query=document.getElementById("query_here").innerText;
+  let query=document.getElementById("query_here").value;
 let type= getMediaType();
    var url;
  if(type="engish"){
