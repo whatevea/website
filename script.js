@@ -29,7 +29,7 @@ let type= getMediaType();
   
 }
 
-// setInterval(change,400);
+setInterval(change,400);
 
   
 
