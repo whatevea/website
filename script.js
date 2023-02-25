@@ -1,34 +1,4 @@
 let h1=document.getElementById("animate_me");
-let search_btn=document.getElementById("button-addon2");
-function getMediaType(){
-   var radioButtons = document.getElementsByName("flexRadioDefault");
-  for(var i = 0; i < radioButtons.length; i++)
-    {
-      if (radioButtons[i].checked===true){
-        return radioButtons[i].value;
-      }
-      
-    }
-  
-}
-search_btn.onclick=()=>{
-  let query=document.getElementById("query_here").value;
-let type= getMediaType();
-   var url;
- if(type==="english"){
-   url=`https://fmovies.to/search?keyword=${query}&vrf=W7KDew%3D%3D`;
-   }
-  if(type==="anime")
-{
-   url=`https://9anime.to/filter?keyword=${query}&vrf=bGByWjY1eTc%3D`;
-}
-  else{
-     url=`https://hindilinks4u.kim/?s=${query}`;
-  }
-  window.location=url;
- //onclick end 
-  
-}
 
 setInterval(change,400);
 
